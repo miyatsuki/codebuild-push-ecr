@@ -1,3 +1,3 @@
-FROM python:3.9.6-buster
+FROM public.ecr.aws/bitnami/python:latest
 WORKDIR /app
 CMD ["echo", "hello from codebuild"]
